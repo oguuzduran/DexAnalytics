@@ -315,12 +315,12 @@ const TokenList = () => {
                       <span className="text-blue-400 text-sm">{token.dex}</span>
                     </td>
                     <td className="text-right pl-4">
-                      <div className="flex items-center justify-end space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <button className="p-1.5 hover:bg-[#2B3139] rounded transition-colors">
-                          <FaSearchPlus className="w-3.5 h-3.5 text-gray-400" />
+                      <div className="flex items-center justify-end space-x-2 opacity-100">
+                        <button className="p-1.5 hover:bg-emerald-500/10 rounded transition-colors">
+                          <FaChartBar className="w-3.5 h-3.5 text-emerald-500 hover:text-emerald-400 transition-colors" />
                         </button>
-                        <button className="p-1.5 hover:bg-[#2B3139] rounded transition-colors">
-                          <FaChartBar className="w-3.5 h-3.5 text-gray-400" />
+                        <button className="p-1.5 hover:bg-orange-500/10 rounded transition-colors">
+                          <FaSearchPlus className="w-3.5 h-3.5 text-orange-500 hover:text-orange-400 transition-colors" />
                         </button>
                       </div>
                     </td>
