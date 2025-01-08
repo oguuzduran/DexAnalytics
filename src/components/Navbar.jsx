@@ -37,7 +37,6 @@ const chains = [
 ];
 
 const Navbar = () => {
-  const [isNotificationOpen, setIsNotificationOpen] = useState(false);
   const [selectedChain, setSelectedChain] = useState('solana');
   const [isChainDropdownOpen, setIsChainDropdownOpen] = useState(false);
 
@@ -118,7 +117,6 @@ const Navbar = () => {
 
             {/* Notifications */}
             <button 
-              onClick={() => setIsNotificationOpen(!isNotificationOpen)}
               className="relative p-2 hover:bg-[#2B3139] rounded-lg transition-colors bg-[#0B1217] border border-gray-800"
             >
               <FaBell className="w-5 h-5 text-gray-400" />

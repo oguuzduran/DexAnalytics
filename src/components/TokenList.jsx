@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaStar, FaRegStar, FaSearchPlus, FaChartBar, FaCaretUp, FaCaretDown, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaRegStar, FaSearchPlus, FaChartBar, FaCaretUp, FaCaretDown, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { BiDiamond } from 'react-icons/bi';
 import { IoShieldCheckmark, IoShieldOutline } from 'react-icons/io5';
 import TokenFilters from './TokenFilters';

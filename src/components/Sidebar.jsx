@@ -18,7 +18,6 @@ import {
 } from 'react-icons/fa';
 
 const Sidebar = () => {
-  const [activeMenu, setActiveMenu] = useState(null);
   const [isExpanded, setIsExpanded] = useState(false);
 
   const menuItems = [
@@ -104,7 +103,6 @@ const Sidebar = () => {
                 className={`w-full flex items-center h-10 px-4 text-gray-400 hover:text-white hover:bg-[#2B3139] transition-colors ${
                   !isExpanded ? 'justify-center' : ''
                 }`}
-                onClick={() => setActiveMenu(activeMenu === item.id ? null : item.id)}
               >
                 <item.icon className="w-5 h-5 min-w-[1.25rem]" />
                 {isExpanded && (
