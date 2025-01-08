@@ -10,7 +10,7 @@ const App = () => {
       <Sidebar />
       <div className="flex-1 pl-16 flex flex-col">
         <Navbar />
-        <main className="flex-1 pt-20 px-6">
+        <main className="flex-1 pt-4 px-6">
           <Home />
         </main>
         <Footer />
