@@ -1,6 +1,6 @@
 # DexAnalytics
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://dex-analytics.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dfbafdf5-bbc2-44b7-8dbe-c42d63e271fb/deploy-status)](https://dex-analytics.netlify.app/)
 
 DexAnalytics, kripto para piyasalarını takip etmek ve analiz etmek için geliştirilmiş modern bir web uygulamasıdır.
 
